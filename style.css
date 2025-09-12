@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+   
+    font-family: 'Manrope';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+header 
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #2C3E50;
+color: white;
+padding: 0px 100px;
+border-top: solid crimson 4px;
+position: fixed;
+width: 100%;
+
+
+
+
+}
+header a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: ease 1s;
+
+}
+header a:hover
+{
+    color: #1ABC9C;
+    font-size: 21px;
+    transition: ease 1s;
+
+}
+.carsour {
+    background-color: #1ABC9C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+    color: white;
+    
+}
+
+.carsour div {
+        margin-left: 80px
+
+
+    }
+
+
+
