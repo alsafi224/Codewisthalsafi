@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();
+    </script>
+
+
 </head>
 <body>
     <header>
@@ -17,18 +23,17 @@
     <a href="#portfolio">Portfolio</a>
     <a href="#about">About</a>
     <a href="#wyus">Wy us</a>
-    <a href="http://">Contact</a>
-
-
-    
-    
+    <a href="#contact">Contact</a>
+    <button id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+    </button>
 </nav>
 
     </header>
     <section class="carsour">
     <div>
-        <h2>Code With Alsafi</h2>
-        <p>This is a sample paragraph to demonstrate the layout of the webpage.</p>
+        <h2 class="wow bounceInDown">Code With Alsafi</h2>
+        <p class="wow bounceInUp">This is a sample paragraph to demonstrate the layout of the webpage.</p>
         <a href="">Register with us</a>
     </div>
         </section>
@@ -36,9 +41,9 @@
 
 
    <section class="services" id="services"> 
-    <h2>Services</h2>
+    <h2 class="wow bounceInDown">Services</h2>
     <div class="container">
-        <div class="card">
+        <div class="card wow rolldown">
             <div>
                 <i class="fa-solid fa-square-binary"></i>
             </div>
@@ -144,8 +149,7 @@
     <div class="coding-desc">
         <h2>We provide high quality website creation</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+We deliver high-quality, custom-built websites designed to elevate your online presence. Our expert team ensures every site is visually stunning, user-friendly, and optimized for performance. Whether you need a portfolio, business site, or e-commerce platform, we combine creativity with the latest technology to bring your vision to life. Choose us for reliable, top-tier website creation that makes a lasting impression        </p>
 
     </div>
 
@@ -175,7 +179,7 @@
     <div class="coding-desc">
         <h2>We provide high quality website creation</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We deliver high-quality, custom-built websites designed to elevate your online presence. Our expert team ensures every site is visually stunning, user-friendly, and optimized for performance. Whether you need a portfolio, business site, or e-commerce platform, we combine creativity with the latest technology to bring your vision to life. Choose us for reliable, top-tier website creation that makes a lasting impression
         </p>
 
     </div>
@@ -190,8 +194,7 @@
     <div class="coding-desc">
         <h2>We provide high quality website creation</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+We deliver high-quality, custom-built websites designed to elevate your online presence. Our expert team ensures every site is visually stunning, user-friendly, and optimized for performance. Whether you need a portfolio, business site, or e-commerce platform, we combine creativity with the latest technology to bring your vision to life. Choose us for reliable, top-tier website creation that makes a lasting impression.        </p>
 
     </div>
 
@@ -199,6 +202,62 @@
 <img src="images/Artificial Intelligence Chatbot.gif">
     </div>
    </section>
+
+
+   <div class="map">
+    <div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2017.76501531734!2d16.571896362884907!3d59.62027322465127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465e612c3d112801%3A0x87f38f291bf93ca2!2zRnJlamEsIFbDpHN0ZXLDpXM!5e0!3m2!1ssv!2sse!4v1758839254921!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+   </div>
+
+    </div>
+    
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form action="">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="mumber" placeholder="Your Phone">
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+   
+    <section class="testemonials">
+        <h2>What Our Clients Say</h2>
+        <div class="container">
+            <div class="card">
+                <p>"CodeWithAlsafi transformed our online presence. Their web development skills are top-notch!"</p>
+                <h3>- John Doe</h3>
+            </div>
+            <div class="card">
+                <p>"The graphic design team at CodeWithAlsafi created stunning visuals for our brand."</p>
+                <h3>- Jane Smith</h3>
+            </div>
+            <div class="card">
+                <p>"Thanks to their digital marketing strategies, our traffic and sales have skyrocketed!"</p>
+                <h3>- Mike Johnson</h3>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container">
+            <div class="card">
+                <h3>What services do you offer?</h3>
+                <p>We offer web development, graphic design, digital marketing, AI tools, prompt engineering, and cyber security services.</p>
+            </div>
+            <div class="card">
+                <h3>How can I contact you?</h3>
+                <p>You can reach us through the contact form on our website or email us at alsaficode@code.se </p>
+            </div>
+
+            
     <footer>
      <p>&copy; 2025 CodeWithAlsafi. All rights reserved.</p>
         <div class="socials">
@@ -206,25 +265,55 @@
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-snapchat"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+
         </div>
 
     </footer>
 
-
-
-
-
-
-
-
-
-
-
     <div class="up">
       <a href="#">  <i class="fa-solid fa-angle-up"></i> </a> 
-
     </div>
 
+    <script>
+      
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        const icon = themeToggle.querySelector('i');
+
+       
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+        
+       
+        if (currentTheme === 'dark') {
+            icon.classList.remove('fa-moon');
+            icon.classList.add('fa-sun');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+          
+            if (newTheme === 'dark') {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            }
+        });
+    </script>
   
 </body>
 </html>
