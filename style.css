@@ -89,6 +89,11 @@ header:hover
    border-top: solid var(--accent-primary) 4px;
 
 }
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 header nav {
     display: flex;
     align-items: center;
@@ -134,6 +139,39 @@ header a:hover
 }
 #theme-toggle:hover i {
     transform: rotate(20deg);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.signin-btn {
+    background-color: var(--accent-primary);
+    color: var(--text-light);
+    border: 2px solid var(--accent-primary);
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.signin-btn:hover {
+    background-color: transparent;
+    color: var(--accent-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.signin-btn i {
+    font-size: 14px;
 }
 
 
@@ -456,7 +494,7 @@ footer
     background-color: var(--bg-footer);
     color: var(--text-light);
     text-align: center;
-    padding: 20px 0;    
+    padding: 20px 100px;
     margin-top: 20px;
     width: 100%;
     z-index: 999;
